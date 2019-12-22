@@ -15,7 +15,7 @@
       <nodes xmi:type="ComIbmMSLMapping.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="379,161" mappingExpression="msl://{default}#postSample_Mapping" validateMaster="contentAndValue">
         <translation xmi:type="utility:ConstantString" string="Mapping"/>
       </nodes>
-      <nodes xmi:type="ComIbmValidate.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="519,163" domain="XMLNSC" checkDomain="true" set="{XmlSchema}" validateMaster="contentAndValue">
+      <nodes xmi:type="ComIbmValidate.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="497,165" domain="XMLNSC" checkDomain="true" validateMaster="contentAndValue">
         <translation xmi:type="utility:ConstantString" string="Validate"/>
       </nodes>
       <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_3" targetNode="FCMComposite_1_2" sourceNode="InTerminal.Input_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
